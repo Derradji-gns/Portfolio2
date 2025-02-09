@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Hparent{
+    display: flex;
+    height: 30rem;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: start;
+    padding-left: 5%;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+.son{
+    width: 50%;
+    height: 73%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    
+}
+.son h1{
+    font-size: 36px;
+    padding: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins", serif;
+}
+.son p{
+    font-size: 21px;
+    padding: 20px;
+    text-align: left;
+    padding-top: 0;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .Hparent{
+        margin-top: 70px;
+        width: 480px;
+        height: 680px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .son{
+        width: 85%;
+        height: 550px;
+        
+    }
+    .son h1{
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .son p{
+        text-align: center;
+        font-size: 1.35rem;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .Hparent{
+        width: 100vmax;
+        height: 700px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .son{
+        width: 85%;
+        height: 550px;
+    }
+    .son h1{
+       text-align: center;
+       font-size: 8vb;
+    }
+    .son p{
+        text-align: center;
+        font-size: 1.35rem;
+        background-color: redd;
+        height: 400px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .Hparent{
+        width: 100vmax;
+        height: 700px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .son{
+        height: 550px;
+    }
+    .son h1{
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    .son p{
+        font-size: 1.3rem;
+        text-align: left;
+    }
+}

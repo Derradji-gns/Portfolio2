@@ -1,0 +1,112 @@
+.Nvb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #00bfff;
+    color:white;
+    padding: 20px 8% 4px;
+    font-size: 32px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display:grid;
+    justify-content: start;
+    align-items:center;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    overflow: hidden;
+}
+.borsa{
+    width: 20%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    display: inline-flex;
+}
+only-img{
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+}
+.borsa h2{
+    font-size: 20px;
+    justify-self: center;
+    align-self: center;
+}
+@media (min-width:320px) and (max-width:480px) {
+    .Nvb{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 480px;
+        height: 70px;
+        background-color: #00bfff;
+
+    }
+    .borsa{
+        width: 190px;
+        height:inherit;
+        display: inline-flex;
+    }
+    .only-img{
+        width: 30%;
+        height: inherit;
+
+    }
+    .borsa h2{
+        font-size: 14px;
+        padding: 2px;
+    }
+}
+
+@media (min-width:481px) and (max-width:786px) {
+    .Nvb{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vmax;
+        height: 70px;
+    }
+    .borsa{
+        width: 200px;
+        margin-right: 10px;
+    }
+    .only-img{
+
+        justify-self: center;
+        align-self: center;
+        width: 35%;
+        height: inherit;
+
+    }
+    .borsa h2{
+        font-size:0.9rem;
+    }
+    
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .Nvb{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vmax;
+        height: 70px;
+    }
+    .borsa{
+        margin-right: 3rem;
+        width: 300px;
+    }
+    .only-img{
+        height: inherit;
+        width: 5rem;
+    }
+    .borsa h2{
+        font-size: 1rem;
+    }
+}
+@media (min-width:1025px) and (max-width:1125px) {
+    .Nvb{
+        width: 1120px;
+    }
+}

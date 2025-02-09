@@ -1,0 +1,39 @@
+@media (min-width:320px) and (max-width:480px) {
+    .firstOne{
+        display: flex;
+        width:480px;
+        justify-content: start;
+        align-items: center;
+    }
+    .secondOne{
+        width: 90%;
+        background-color: green;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .firstOne{
+        display: flex;
+        width:100vmax;
+        justify-content: start;
+        align-items: center;
+    }
+    .secondOne{
+        width: 90%;
+        background-color: green;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .firstOne{
+        display: flex;
+        width:100vmax;
+        justify-content: start;
+        align-items: center;
+    }
+    .secondOne{
+        width: 90%;
+        background-color: green;
+    }
+
+}
